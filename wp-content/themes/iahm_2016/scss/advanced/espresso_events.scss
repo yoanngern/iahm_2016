@@ -1,0 +1,76 @@
+section#content.espresso_event_categories-mg {
+    article.content-page {
+        a {
+            color: $pink;
+        }
+
+        h1 {
+            color: $pink;
+        }
+
+        time {
+            color: $pink;
+        }
+    }
+}
+
+article.content-page.espresso {
+
+    h1 {
+        padding-bottom: 0;
+        margin: 0;
+        line-height: 1em;
+    }
+
+    time {
+        font-family: $futura-demi;
+        font-size: 1.3em;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    div.address {
+        padding-bottom: 10px;
+
+        span {
+            font-size: 1.2em;
+        }
+    }
+
+    section.speaker {
+        margin-top: 0px;
+        padding-bottom: 20px;
+
+        div.picture {
+            display: inline-block;
+            width: 215px;
+            vertical-align: top;
+            margin-top: 20px;
+
+            img {
+                display: block;
+                width: 200px;
+                height: auto;
+                @include border-radius(100px);
+            }
+        }
+
+        div.bio {
+            display: inline-block;
+            margin-left: 15px;
+            vertical-align: top;
+            margin-top: 20px;
+            width: 550px;
+
+            p {
+                max-width: inherit;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.espresso_events,
+.espresso_venues {
+    margin-bottom: inherit;
+}

@@ -1,0 +1,248 @@
+body > header {
+    width: 100%;
+    z-index: 1000;
+    color: $black;
+    font-family: $futura;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: $black;
+
+    div {
+        max-width: 1010px;
+        height: 48px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        & > ul {
+            display: inline-block;
+            width: 100%;
+
+            li {
+                display: inline-block;
+                vertical-align: top;
+
+
+                &:first-of-type {
+                    padding-left: 17px;
+                    margin-right: 10px;
+
+                    a {
+                        width: 38px;
+                        height: 48px;
+                        top: 0;
+                        display: inline-block;
+                        background-image: url('images/logo_simple.png');
+                        background-position: left center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        text-indent: -9999px;
+                        white-space: nowrap;
+                        padding: 0;
+
+                        &:hover {
+                            background-color: transparent;
+                            opacity: 0.7;
+                        }
+
+                        &:active {
+                            background-color: transparent;
+                        }
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    a {
+                    }
+                }
+
+                &:last-of-type {
+                    float: right;
+                    margin-right: 0px;
+                }
+
+                &.current-menu-item,
+                &.current-page-ancestor,
+                &.current-menu-ancestor {
+                    a {
+                        font-family: $futura-bold;
+                    }
+                }
+
+                ul {
+                    display: none;
+                }
+
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    font-size: 1.3em;
+                    display: block;
+                    height: 100%;
+                    padding: 2px 15px 0;
+                    line-height: 46px;
+
+                    &:hover {
+                        background-color: lighten($black, 7);
+                    }
+
+                    &:active {
+                        background-color: lighten($black, 20);
+                    }
+                }
+
+                &#iahm a {
+                    padding-left: 7px;
+                    margin-left: 3px;
+
+                }
+
+                &#burger {
+                    display: none;
+                    width: 30px;
+                    height: 25px;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    background-image: url('../images/burger_white.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin: 12px 10px 0 0;
+
+                    a:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+
+        ul#mobile {
+            background-color: $black;
+            top: 48px;
+            position: absolute;
+            width: 100%;
+            display: none;
+            box-shadow: 0px 1px 8px $black;
+
+            &.show {
+                display: block;
+            }
+
+            li {
+                line-height: 48px;
+                text-align: center;
+                border-top: 1px solid $gray;
+                display: inline-block;
+                width: 50%;
+                border-bottom: 1px solid $gray;
+                margin-bottom: -1px;
+
+                &:nth-of-type(2n+1) {
+                    border-right: 1px solid $gray;
+                    margin-left: -1px;
+                    margin-right: -0px;
+                }
+
+                &:last-of-type {
+                    width: 100%;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid $black;
+                }
+
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+
+                    &:hover {
+                        background-color: lighten($black, 12);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    header {
+        nav {
+            ul#desktop {
+                li {
+
+                    &#live,
+                    &#shop {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    body > header {
+        nav {
+            height: 48px;
+            ul#desktop {
+                li {
+                    display: none;
+
+                    &#logo_simple {
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        margin: 6px 0 0 10px;
+                        height: 36px;
+                        width: 42px;
+                    }
+
+                    &#burger {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner {
+        height: 250px;
+    }
+
+    a.logo_live {
+        margin-top: 73px;
+        margin-bottom: 26px;
+        height: 49px;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+
+    body > header {
+        nav {
+            ul#mobile {
+                li {
+                    display: block;
+                    width: 100%;
+
+                    &:nth-of-type(2n+1) {
+                        border-left: none;
+                        border-right: none;
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

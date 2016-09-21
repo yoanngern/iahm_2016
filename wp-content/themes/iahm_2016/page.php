@@ -1,4 +1,4 @@
-<?php get_header('default'); ?>
+<?php get_header( 'default' ); ?>
 
 
 <section id="content">
@@ -19,8 +19,6 @@
 		?>
 
 	</div>
-
-
 
 
 </section>

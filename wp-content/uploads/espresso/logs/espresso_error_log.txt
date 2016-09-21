@@ -1,0 +1,297 @@
+----------------------------------------------------------------------------------------
+[2016-09-19 06:34:41]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:34:51]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:36:28]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:36:34]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:36:35]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:39:48]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:39:57]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:40:29]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:40:33]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:40:55]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+[2016-09-19 06:45:46]  Exception Details
+Message: No configuration section has been provided while attempting to save "_Config".
+Code: EE_Config - _verify_config_params - 483
+File: /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php
+Line No: 483
+Stack trace: 
+#0 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Config.core.php(802): EE_Config->_verify_config_params('', '', '_Config', NULL, Array)
+#1 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/EE_Configurable.core.php(147): EE_Config->get_config('', '', '')
+#2 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(427): EE_Configurable->config()
+#3 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/modules/event_single/EED_Event_Single.module.php(448): EED_Event_Single::display_venue()
+#4 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events-venues.php(4): espresso_display_venue_in_event_details()
+#5 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#6 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#7 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#8 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events...')
+#9 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/content-espresso_events.php(43): espresso_get_template_part('content', 'espresso_events...')
+#10 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(356): include('/Users/yoannger...')
+#11 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(284): EEH_Template::display_template('/Users/yoannger...', Array, false)
+#12 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(134): EEH_Template::locate_template(Array, Array, true, false)
+#13 /Users/yoanngern/www/iahm_conference/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Template.helper.php(29): EEH_Template::get_template_part('content', 'espresso_events')
+#14 /Users/yoanngern/www/iahm_conference/wp-content/themes/iahm_conference/single-espresso_events.php(18): espresso_get_template_part('content', 'espresso_events')
+#15 /Users/yoanngern/www/iahm_conference/wp-includes/template-loader.php(75): include('/Users/yoannger...')
+#16 /Users/yoanngern/www/iahm_conference/wp-blog-header.php(19): require_once('/Users/yoannger...')
+#17 /Users/yoanngern/www/iahm_conference/index.php(17): require('/Users/yoannger...')
+#18 {main}
+----------------------------------------------------------------------------------------

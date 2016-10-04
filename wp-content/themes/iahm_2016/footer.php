@@ -61,8 +61,11 @@
 					<p>Heures téléphone :<br/>
 						lu-ve de 14h à 17h30</p></ul>
 				<ul class="languages"><h1>Changer de langue</h1>
-					<li><a href="http://laguerison.org">Français</a></li>
-					<li><a href="/">English</a></li>
+					<?php
+					wp_nav_menu( array(
+						'theme_location' => 'footer-menu'
+					) );
+					?>
 				</ul>
 			</div>
 		</div>
@@ -126,9 +129,13 @@
 					<p>Phone schedules :<br/>
 						Mo-Fr from 2pm to 5:30pm</p></ul>
 				<ul class="languages"><h1>Change language</h1>
-					<li><a href="http://laguerison.org">Français</a></li>
-					<li><a href="/">English</a></li>
+					<?php
+					wp_nav_menu( array(
+						'theme_location' => 'footer-menu'
+					) );
+					?>
 				</ul>
+
 			</div>
 		</div>
 
@@ -136,6 +143,8 @@
 	<?php }
 
 	?>
+
+
 </footer>
 
 <?php wp_footer(); ?>

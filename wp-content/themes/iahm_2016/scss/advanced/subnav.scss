@@ -12,6 +12,11 @@ section#subnav {
     &.fixed {
         position: fixed;
         top: 0;
+    }
+
+    &.fixed,
+    &.blur {
+
         //background-color: rgba($gray5, 0.99);
 
         -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -23,6 +28,14 @@ section#subnav {
 
             .block {
                 border-bottom: none;
+            }
+        }
+
+        #toggle {
+            background-image: url('images/arrow_down_blk.png');
+
+            &.open {
+                background-image: url('images/arrow_up_blk.png');
             }
         }
 
@@ -102,7 +115,8 @@ section#subnav {
 
         }
 
-        &.fixed {
+        &.fixed,
+        &.blur  {
             border-bottom: 1px solid rgba($gray1, 0.6);
 
             h1 {
@@ -117,6 +131,61 @@ section#subnav {
                 border-bottom: none;
 
             }
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        #toggle {
+            display: block;
+            width: 30px;
+            height: 30px;
+            background-image: url('images/arrow_down.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 25px;
+            top: 0px;
+
+            &.open {
+                background-image: url('images/arrow_up.png');
+            }
+        }
+
+        .container {
+
+            ul.menu {
+
+                &.show {
+                    & > li {
+                        ul {
+                            display: block;
+                        }
+                    }
+                }
+
+                & > li {
+
+                    ul {
+                        display: none;
+                        float: none;
+                        text-align: center;
+
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+
+        #toggle {
+            right: 10px;
+        }
+
+        .container {
+            padding-left: 10px;
+            padding-right: 10px;
         }
     }
 

@@ -9,6 +9,8 @@
 @import "advanced/custom";
 @import "advanced/content";
 @import "advanced/events";
+@import "advanced/slider";
+@import "advanced/home";
 @import "advanced/espresso_events";
 
 body {
@@ -19,19 +21,19 @@ body {
 
 body {
     &.page-template-default,
-    &.single-espresso_events,
     &.post-type-archive-espresso_events {
 
         section#bigimage {
             .banner {
-                height: 50vh;
-                min-height: 200px;
+                height: 40vh;
+                min-height: 300px;
                 padding: 100px;
             }
         }
 
         section#content .platter {
             top: -104px;
+            margin-bottom: -40px;
         }
     }
 }
@@ -50,16 +52,25 @@ section {
         margin-right: auto;
         padding-top: 64px;
         padding-bottom: 64px;
-
         min-height: 350px;
     }
 }
 
 section#bigimage {
+    background-color: black;
+
+    &.dark {
+        .banner {
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
+        }
+    }
+
     .banner {
         width: 100%;
         height: 60vh;
         min-height: 500px;
+        max-height: 700px;
         display: block;
         background-position: center;
         background-repeat: no-repeat;
@@ -70,10 +81,11 @@ section#bigimage {
     }
 
     .header_title {
-        height: 180px;
+        height: 17%;
+        min-height: 180px;
         display: block;
         position: absolute;
-        top: 7.8vh;
+        top: 8vh;
         margin-top: 90px;
         width: 100%;
         background-position: top center;
@@ -90,6 +102,54 @@ section#bigimage {
     }
 }
 
+@media only screen and (max-height: 1200px) {
+    section#bigimage {
+
+        .header_title {
+            top: 5vh;
+        }
+    }
+}
+
+@media only screen and (min-height: 900px) and (max-width: 1600px) {
+    section#bigimage {
+        .banner {
+            max-height: 600px;
+        }
+
+        .header_title {
+            top: 7vh;
+            height: 13%;
+        }
+    }
+}
+
+@media only screen and (min-height: 900px) and (max-width: 1400px) {
+    section#bigimage {
+        .banner {
+            max-height: 550px;
+        }
+
+        .header_title {
+            top: 5vh;
+            height: 12%;
+        }
+    }
+}
+
+@media only screen and (min-height: 900px) and (max-width: 1290px) {
+    section#bigimage {
+        .banner {
+            max-height: 500px;
+        }
+
+        .header_title {
+            top: 2.5vh;
+            height: 10%;
+        }
+    }
+}
+
 section#content {
     overflow: visible;
     padding: 0;
@@ -100,5 +160,58 @@ section#content {
 
     .platter {
         top: -168px;
+        margin-bottom: -104px;
     }
+}
+
+@media only screen and (max-width: 1160px) {
+
+    body {
+        &.page-template-default,
+        &.post-type-archive-espresso_events {
+
+            section#bigimage {
+                .banner {
+                    min-height: 200px;
+                    height: 40vh;
+                }
+            }
+
+            section#content .platter {
+                top: inherit;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    section#bigimage {
+        .banner {
+            min-height: 200px;
+            height: 40vh;
+        }
+
+        .header_title {
+            top: 3.5vh;
+        }
+    }
+
+    section#content {
+        .platter {
+            top: inherit;
+            margin-bottom: 0;
+            padding-top: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    section#bigimage {
+
+        .header_title {
+            width: 86%;
+            margin-left: 7%;
+        }
+    }
+
+
 }

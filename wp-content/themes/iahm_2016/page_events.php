@@ -2,6 +2,8 @@
 
 <?php get_header(); ?>
 
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/events.min.js"></script>
+
 <?php if ( has_nav_menu( 'principal' ) ) : ?>
 	<section id="subnav" class="dark">
 
@@ -21,6 +23,8 @@
 
 
 				?>
+
+				<a href="/" id="toggle"></a>
 			</div>
 
 		</div>
@@ -28,7 +32,7 @@
 	</section>
 <?php endif; ?>
 
-<main class="main">
+<main class="main" data-template="events">
 
 	<section id="title" style="background-image: url('<?php echo get_field( 'banner' ); ?>')">
 
@@ -92,7 +96,29 @@
 
 	<?php endif; ?>
 
+	<section id="listOfEvents" class="small" data-nb="3">
+		<article class="content-page">
+			<h1>Prochaines soirées Miracles et Guérisons</h1>
+			<div class="insert"></div>
+		</article>
+	</section>
 
+	<script id="eventsList" type="text/x-handlebars-template">
+
+
+		{{#each events}}
+		<div class="event">
+			<div>
+				<a id="{{ id }}" class="image" href="{{link}}" style="background-image: url('{{image}}')"></a>
+
+				<h2>{{title}}</h2>
+				<h3>{{formatDate date_start day="numeric" month="long" year="numeric"}}</h3>
+
+				<a href="{{link}}" class="button">Plus d'infos</a>
+			</div>
+		</div>
+		{{/each}}
+	</script>
 
 
 	<?php get_footer(); ?>

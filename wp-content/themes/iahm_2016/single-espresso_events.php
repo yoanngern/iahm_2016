@@ -1,11 +1,10 @@
-<?php get_header( 'default' );
-?>
 
+
+<?php get_header('event'); ?>
 
 <section id="content">
 
 	<div class="platter">
-
 
 		<?php
 		// Start the Loop.

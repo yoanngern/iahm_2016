@@ -1,13 +1,16 @@
-<?php get_header( 'default' ); ?>
+<?php get_header('intro'); ?>
 
-	<section id="content">
-		<div class="platter">
+<section id="content">
 
-			<article class="content-page espresso">
-				<?php espresso_get_template_part( 'loop', 'espresso_events' ); ?>
-			</article>
+	<div class="platter">
 
-		</div>
-	</section>
+		<article class="content-page espresso">
+			<h1>test</h1>
+		</article>
+	</div>
 
-<?php get_footer();
+</section>
+
+
+<?php get_footer(); ?>
+

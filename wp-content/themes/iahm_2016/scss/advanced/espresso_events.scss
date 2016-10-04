@@ -45,6 +45,7 @@ article.content-page.espresso {
             display: inline-block;
             width: 215px;
             vertical-align: top;
+            margin-right: 15px;
             margin-top: 20px;
 
             img {
@@ -57,10 +58,10 @@ article.content-page.espresso {
 
         div.bio {
             display: inline-block;
-            margin-left: 15px;
+
             vertical-align: top;
             margin-top: 20px;
-            width: 550px;
+            max-width: 550px;
 
             p {
                 max-width: inherit;

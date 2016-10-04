@@ -27,6 +27,8 @@ if ( count( $children ) != 0 && $parent_id != null ) : ?>
 
 
 					?>
+
+					<a href="/" id="toggle"></a>
 				</div>
 
 			</div>
@@ -67,6 +69,8 @@ if ( count( $children ) != 0 && $parent_id != null ) : ?>
 
 
 						?>
+
+						<a href="/" id="toggle"></a>
 					</div>
 
 				</div>
@@ -79,4 +83,4 @@ if ( count( $children ) != 0 && $parent_id != null ) : ?>
 
 <?php endif; ?>
 
-<main class="main">
+<main class="main" data-template="default">

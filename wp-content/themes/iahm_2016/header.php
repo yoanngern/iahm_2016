@@ -36,10 +36,20 @@
 	<?php endif; ?>
 
 
+
+
+
+
 	<script>
 
 	</script>
 	<?php wp_head(); ?>
+
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.fr"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/handlebars-v4.0.5.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/handlebars-intl/handlebars-intl.min.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/handlebars-intl/locale-data/fr.js"></script>
+
 
 
 </head>
@@ -48,10 +58,14 @@
 
 <header>
 
+	<a href="/" id="simple_logo"></a>
+
 	<?php
 	wp_nav_menu( array(
 		'theme_location' => 'principal'
 	) );
 	?>
+
+	<a href="/" id="burger"></a>
 
 </header>

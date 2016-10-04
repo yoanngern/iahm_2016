@@ -18,6 +18,8 @@ footer {
         display: block;
 
         ul {
+            display: inline-block;
+
             li {
                 list-style: none;
 
@@ -67,8 +69,11 @@ footer {
             max-width: 1280px;
             margin: 0 auto;
             padding-bottom: 30px;
+            display: table;
+            position: relative;
 
             ul {
+                float: left;
 
                 &:first-of-type {
                     margin-left: 25px;
@@ -111,4 +116,149 @@ footer {
     #logo_iahm {
         background-image: url('images/logo_iahm.png');
     }
+
+    @media only screen and (max-width: 1300px) {
+
+        .content {
+            div.address,
+            ul {
+                width: 160px;
+
+            }
+
+            div.info {
+                max-width: 1160px;
+
+                div.logo {
+                    width: 376px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1160px) {
+
+        .content {
+
+            nav.sitemap {
+                max-width: 900px;
+
+                ul {
+                    float: none;
+                    margin-bottom: 30px;
+
+                    &:first-of-type {
+                        margin-left: 15px;
+                    }
+
+                    &:last-of-type {
+                        margin-right: 15px;
+                    }
+                }
+            }
+
+            div.address,
+            ul {
+                width: 180px;
+                margin-left: 15px;
+                margin-right: 15px;
+
+            }
+
+            div.info {
+                max-width: 900px;
+
+                div.logo {
+                    width: 207px;
+
+                    a#logo_aimg,
+                    a#logo_iahm {
+                        width: 100%;
+                        background-position: left top;
+                    }
+                }
+
+                ul.languages {
+                    float: inherit;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        .content {
+
+            nav.sitemap {
+                min-width: 600px;
+                width: 90%;
+
+                ul {
+                    float: left;
+                    width: 33.3%;
+                    margin: 0 0 30px;
+
+                    &:first-of-type,
+                    &:last-of-type {
+                        margin: 0 0 30px;
+                    }
+
+                    li, h1 {
+                        text-align: center;
+                    }
+                }
+            }
+
+            div.info {
+                display: table;
+                min-width: 600px;
+                width: 90%;
+
+                div.logo {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 50px;
+
+                    a#logo_aimg,
+                    a#logo_iahm {
+                        background-position: center;
+                    }
+                }
+
+                div.address,
+                ul.phone,
+                ul.languages {
+                    float: left;
+                    width: 33.3%;
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        .content {
+            padding: 0;
+
+            nav.sitemap {
+                display: none;
+
+            }
+
+            div.info {
+                min-width: inherit;
+
+                div.logo,
+                div.address,
+                ul.phone,
+                ul.languages {
+                    float: inherit;
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
 }
+

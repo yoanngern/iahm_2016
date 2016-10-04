@@ -1,0 +1,146 @@
+body.page-template-page_home {
+
+    section#header_home {
+        h1 {
+            width: 100%;
+            color: $white;
+            font-size: 3em;
+            top: 30%;
+            position: absolute;
+            text-align: center;
+        }
+
+        /*
+        div#slides {
+            .slidesjs-slide {
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 85vh;
+                top: -47px;
+                margin-bottom: -47px;
+                position: relative;
+
+
+            }
+        }
+        */
+    }
+
+    section#pub {
+        width: 100%;
+        overflow: scroll;
+        display: table;
+        position: relative;
+        border-bottom: 3px solid $white;
+        border-top: 2px solid $white;
+
+        ul {
+
+            li {
+                display: inline-block;
+                float: left;
+                width: 25%;
+
+                list-style-type: none;
+                box-sizing: border-box;
+                border-right: 3px solid $white;
+
+                &:last-of-type {
+                    border-right: none;
+                }
+
+                a {
+                    height: 10vh;
+                    padding-top: 100px;
+                    width: 100%;
+                    display: block;
+                    background-size: cover;
+                    background-position: top center;
+                    position: relative;
+
+                    div.image {
+                        width: 90%;
+                        margin-left: 5%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        display: block;
+                        background-position: top center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    @media only screen and (max-width: 2100px) {
+
+        section#pub {
+
+            ul li a {
+                height: 8vh;
+            }
+        }
+
+    }
+
+    @media only screen and (max-width: 1600px) {
+
+        section#pub {
+
+            ul li a {
+                height: 6vh;
+            }
+        }
+
+    }
+
+    @media only screen and (max-width: 1300px) {
+
+        section#pub {
+
+            ul li a {
+                height: 4vh;
+                max-height: 80px;
+            }
+        }
+
+    }
+
+    @media only screen and (max-width: 640px) {
+
+        section#pub {
+            border-bottom: 2px solid $white;
+            border-top: 2px solid $white;
+
+            ul {
+                li {
+                    display: block;
+                    float: inherit;
+                    width: 100%;
+                    border-right: 0;
+                    border-bottom: 2px solid $white;
+                    border-top: 2px solid $white;
+
+                    a {
+                        height: inherit;
+                        padding-bottom: 56.2%;
+                        position: relative;
+                        padding-top: 0;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+

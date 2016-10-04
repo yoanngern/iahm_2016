@@ -26,7 +26,6 @@ body > header {
                 display: inline-block;
                 vertical-align: top;
 
-
                 &:first-of-type {
                     padding-left: 17px;
                     margin-right: 10px;
@@ -121,126 +120,111 @@ body > header {
             }
         }
 
-        ul#mobile {
-            background-color: $black;
-            top: 48px;
-            position: absolute;
-            width: 100%;
-            display: none;
-            box-shadow: 0px 1px 8px $black;
 
-            &.show {
-                display: block;
-            }
+    }
 
-            li {
-                line-height: 48px;
-                text-align: center;
-                border-top: 1px solid $gray;
-                display: inline-block;
-                width: 50%;
-                border-bottom: 1px solid $gray;
-                margin-bottom: -1px;
+    @media only screen and (max-width: 1000px) {
+        z-index: 1001;
+        div {
 
-                &:nth-of-type(2n+1) {
-                    border-right: 1px solid $gray;
-                    margin-left: -1px;
-                    margin-right: -0px;
-                }
+            ul {
+                display: none;
+                position: fixed;
+                top: 0px;
+                right: 0px;
+                height: 100%;
+                bottom: 0;
+                max-width: 260px;
+                width: 100%;
+                background-color: $black;
+                z-index: 300;
+                padding-top: 48px;
 
-                &:last-of-type {
-                    width: 100%;
-                    border-left: none;
-                    border-right: none;
-                    border-bottom: 1px solid $black;
-                }
-
-                a {
-                    color: $white;
-                    text-decoration: none;
-                    width: 100%;
-                    height: 100%;
+                &.show {
                     display: block;
 
-                    &:hover {
-                        background-color: lighten($black, 12);
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 960px) {
-
-    header {
-        nav {
-            ul#desktop {
-                li {
-
-                    &#live,
-                    &#shop {
+                    ul {
                         display: none;
                     }
                 }
-            }
-        }
-    }
-}
 
-@media only screen and (max-width: 760px) {
-    body > header {
-        nav {
-            height: 48px;
-            ul#desktop {
-                li {
-                    display: none;
-
-                    &#logo_simple {
-                        display: block;
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        margin: 6px 0 0 10px;
-                        height: 36px;
-                        width: 42px;
-                    }
-
-                    &#burger {
-                        display: block;
-                    }
-                }
-            }
-        }
-    }
-
-    .banner {
-        height: 250px;
-    }
-
-    a.logo_live {
-        margin-top: 73px;
-        margin-bottom: 26px;
-        height: 49px;
-    }
-
-}
-
-@media only screen and (max-width: 540px) {
-
-    body > header {
-        nav {
-            ul#mobile {
                 li {
                     display: block;
-                    width: 100%;
+                    margin: 0;
 
-                    &:nth-of-type(2n+1) {
-                        border-left: none;
-                        border-right: none;
-                        margin-left: 0;
-                        margin-right: 0;
+                    &:first-of-type {
+                        display: none;
                     }
+
+                    &:last-of-type {
+                        float: inherit;
+                    }
+
+                }
+            }
+
+        }
+
+        #simple_logo {
+            display: block;
+            width: 38px;
+            height: 48px;
+            position: absolute;
+            left: 20px;
+            top: 0;
+            background-image: url('images/logo_simple.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: 0;
+            z-index: 1000;
+
+            a:hover {
+                background-color: transparent;
+            }
+        }
+
+        #burger {
+            display: block;
+            width: 30px;
+            height: 48px;
+            position: absolute;
+            right: 20px;
+            top: 0;
+            background-image: url('images/burger_white.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: 0;
+            z-index: 1000;
+
+            a:hover {
+                background-color: transparent;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+
+        #simple_logo {
+            left: 10px;
+        }
+
+        #burger {
+            right: 10px;
+        }
+
+        div {
+
+            ul {
+                right: 0;
+                max-width: inherit;
+                position: absolute;
+                bottom: inherit;
+                height: auto;
+
+                li a {
+                    padding-left: 10px;
                 }
             }
         }

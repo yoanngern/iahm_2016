@@ -124,4 +124,16 @@ article.content-page {
             }
         }
     }
+
+    iframe {
+        max-width: 100%;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        padding: 0 20px;
+    }
+
+    @media only screen and (max-width: 640px) {
+        padding: 0 10px;
+    }
 }

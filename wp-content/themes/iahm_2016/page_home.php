@@ -16,8 +16,9 @@
 
 					?>
 
-					<div style="background-image: url('<?php echo $slide['image']['sizes']['home']; ?>')">
+					<div style="background-image: url('<?php echo $slide['bg']['sizes']['home']; ?>')">
 
+						<a class="image" href="<?php echo $slide['link']; ?>" style="background-image: url('<?php echo $slide['image']; ?>')"></a>
 						<h1><?php echo $slide['title']; ?></h1>
 
 					</div>

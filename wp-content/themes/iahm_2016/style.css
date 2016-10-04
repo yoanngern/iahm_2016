@@ -862,6 +862,7 @@ div.slidesjs {
           background-color: #FFFFFF; }
 
 body.page-template-page_home section#header_home {
+  position: relative;
         /*
         div#slides {
             .slidesjs-slide {
@@ -880,10 +881,21 @@ body.page-template-page_home section#header_home {
   body.page-template-page_home section#header_home h1 {
     width: 100%;
     color: #FFFFFF;
-    font-size: 3em;
-    top: 30%;
+    font-size: 2.2em;
+    bottom: 10%;
     position: absolute;
-    text-align: center; }
+    text-align: center;
+    font-family: "FuturaPT-BookObl", "FuturaPT-Book", Arial, Helvetica, Verdana sans-serif; }
+  body.page-template-page_home section#header_home a.image {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 18%;
+    bottom: 32%;
+    left: 15%;
+    right: 15%; }
 body.page-template-page_home section#pub {
   width: 100%;
   overflow: scroll;
@@ -918,6 +930,18 @@ body.page-template-page_home section#pub {
         background-position: top center;
         background-repeat: no-repeat;
         background-size: contain; }
+@media only screen and (min-width: 1080px) {
+  body.page-template-page_home section#header_home a.image {
+    top: 25%;
+    bottom: 30%;
+    left: 15%;
+    right: 15%; } }
+@media only screen and (min-width: 2000px) {
+  body.page-template-page_home section#header_home a.image {
+    top: 30%;
+    bottom: 35%;
+    left: 15%;
+    right: 15%; } }
 @media only screen and (max-width: 2100px) {
   body.page-template-page_home section#pub ul li a {
     height: 8vh; } }
@@ -925,10 +949,19 @@ body.page-template-page_home section#pub {
   body.page-template-page_home section#pub ul li a {
     height: 6vh; } }
 @media only screen and (max-width: 1300px) {
+  body.page-template-page_home section#header_home h1 {
+    font-size: 1.8em; }
   body.page-template-page_home section#pub ul li a {
     height: 4vh;
     max-height: 80px; } }
 @media only screen and (max-width: 640px) {
+  body.page-template-page_home section#header_home a.image {
+    top: 12%;
+    bottom: 24%;
+    left: 15%;
+    right: 15%; }
+  body.page-template-page_home section#header_home h1 {
+    font-size: 1.2em; }
   body.page-template-page_home section#pub {
     border-bottom: 2px solid #FFFFFF;
     border-top: 2px solid #FFFFFF; }

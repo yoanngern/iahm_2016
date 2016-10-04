@@ -96,4 +96,18 @@ div.slidesjs {
             }
         }
     }
+
+    @media only screen and (max-width: 640px) {
+        a.slidesjs-navigation {
+            width: 10%;
+
+            &.slidesjs-previous {
+                left: 3%;
+            }
+
+            &.slidesjs-next {
+                right: 3%;
+            }
+        }
+    }
 }

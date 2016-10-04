@@ -4,7 +4,11 @@
 
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/events.min.js"></script>
 
-<?php if ( has_nav_menu( 'principal' ) ) : ?>
+
+
+<?php
+
+if ( has_nav_menu( 'principal' ) ) : ?>
 	<section id="subnav" class="dark">
 
 		<div class="container">

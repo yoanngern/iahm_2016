@@ -5,10 +5,9 @@
 $parent_id = get_ancestors( get_the_ID(), 'page' )[0];
 $children  = get_pages( array( 'child_of' => $parent_id ) );
 
-
 if ( count( $children ) != 0 && $parent_id != null ) : ?>
 
-	<?php if ( has_nav_menu( 'principal' ) && ! is_child( 'events' ) ) : ?>
+	<?php if ( has_nav_menu( 'principal' ) && !is_child( 'events' ) && !is_child( 'evenements' )) : ?>
 		<section id="subnav" class="dark main">
 
 			<div class="container">
@@ -36,7 +35,7 @@ if ( count( $children ) != 0 && $parent_id != null ) : ?>
 		</section>
 	<?php endif; ?>
 
-	<?php if ( is_child( 'events' ) ) :
+	<?php if ( is_child( 'events') || is_child( 'evenements') ) :
 
 		$nav = wp_nav_menu( array(
 			'theme_location' => 'events',

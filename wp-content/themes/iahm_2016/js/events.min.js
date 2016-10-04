@@ -6,8 +6,7 @@ jQuery(document).ready(function () {
     HandlebarsIntl.registerWith(Handlebars);
 
 
-
-    $("#listOfEvents").each( function () {
+    $("#listOfEvents").each(function () {
         var nb = $(this).attr("data-nb");
 
         getEvents(nb);
@@ -18,12 +17,11 @@ jQuery(document).ready(function () {
 function getEvents(nb) {
 
 
-
     var url = "/wp-json/ee/v4.8.36/events?include=Datetime&calculate=image_full&order_by=Datetime.DTT_EVT_start&order=ASC";
 
     url += "&filter[date_query][before]=NOW";
 
-    if(nb !== null) {
+    if (nb !== null) {
         url += "&limit=" + nb;
     }
 
@@ -39,8 +37,6 @@ function getEvents(nb) {
             console.log("error");
         },
         success: function (data) {
-
-            console.log(data);
 
             $(data).each(function () {
                 var event = {};
@@ -58,7 +54,11 @@ function getEvents(nb) {
 
                 event.timestamp = event.date_start;
 
-                events.push(event);
+                var now = new Date();
+
+                if (event.date_start > now) {
+                    events.push(event);
+                }
 
 
             });

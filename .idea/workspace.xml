@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868eef80-fb9c-463f-9dee-99441240d946" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/.sass-cache/3b23117fe9e6218802138d5cd69216cc3512bf50/slider.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/.sass-cache/3b23117fe9e6218802138d5cd69216cc3512bf50/slider.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/.sass-cache/3b23117fe9e6218802138d5cd69216cc3512bf50/home.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/.sass-cache/3b23117fe9e6218802138d5cd69216cc3512bf50/home.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/home.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/slider.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/slider.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" />
     </list>
     <ignored path="iahm_conference.iws" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="home.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -402,7 +401,7 @@
       <workItem from="1475488612910" duration="1481000" />
       <workItem from="1475507383631" duration="6205000" />
       <workItem from="1475556329893" duration="9607000" />
-      <workItem from="1475570912004" duration="6426000" />
+      <workItem from="1475570912004" duration="6551000" />
     </task>
     <task id="LOCAL-00001" summary="update footer">
       <created>1474487946647</created>
@@ -481,11 +480,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475592897488</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update home slider">
+      <created>1475594707480</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1475594707480</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134980000" />
+    <option name="totallyTimeSpent" value="135105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -555,7 +561,8 @@
     <MESSAGE value="update footer nav" />
     <MESSAGE value="fix bug with default banner" />
     <MESSAGE value="update event nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="update event nav" />
+    <MESSAGE value="update home slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="update home slider" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../ems_lesignal</wordpressPath>
@@ -940,8 +947,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
           <folding />
         </state>
       </provider>

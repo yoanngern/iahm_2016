@@ -964,12 +964,12 @@ body.page-template-page_home section#pub {
 @media only screen and (max-width: 640px) {
   body.page-template-page_home section#header_home a.image {
     top: 12%;
-    bottom: 28%;
+    bottom: 30%;
     left: 15%;
     right: 15%; }
   body.page-template-page_home section#header_home h1 {
     font-size: 1.2em;
-    bottom: 30px; }
+    bottom: 25px; }
   body.page-template-page_home section#pub {
     border-bottom: 2px solid #FFFFFF;
     border-top: 2px solid #FFFFFF; }

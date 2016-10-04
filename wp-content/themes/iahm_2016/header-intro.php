@@ -10,6 +10,7 @@
 
 	$frontpage_id = get_option( 'page_on_front' );
 
+	$i = 0;
 
 	while ( empty( $banner ) ) {
 
@@ -24,15 +25,22 @@
 
 			break;
 		}
+
+		$i ++;
+		if ( $i == 5 ) {
+			break;
+		}
 	}
 
 	if ( ! empty( $banner ) ): ?>
 
 		<div class="banner"
-		   style="background-image: url('<?php echo $banner; ?>')"></div>
+		     style="background-image: url('<?php echo $banner; ?>')"></div>
 	<?php endif;
 
 	$title = get_field( 'title' );
+
+	$i = 0;
 
 	while ( empty( $title ) ) {
 
@@ -45,6 +53,11 @@
 			$id    = $frontpage_id;
 			$title = get_field( 'title', $id );
 
+			break;
+		}
+
+		$i ++;
+		if ( $i == 5 ) {
 			break;
 		}
 	}

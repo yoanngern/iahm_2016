@@ -1,4 +1,4 @@
-<?php get_header('subnav'); ?>
+<?php get_header( 'subnav' ); ?>
 
 <section id="bigimage">
 
@@ -8,6 +8,8 @@
 	$frontpage_id = get_option( 'page_on_front' );
 
 	$banner = get_field( 'banner' );
+
+	$i = 0;
 
 	while ( empty( $banner ) ) {
 
@@ -22,12 +24,17 @@
 
 			break;
 		}
+
+		$i ++;
+		if ( $i == 5 ) {
+			break;
+		}
 	}
 
 	if ( ! empty( $banner ) ): ?>
 
 		<div class="banner"
-		   style="background-image: url('<?php echo $banner; ?>')"></div>
+		     style="background-image: url('<?php echo $banner; ?>')"></div>
 	<?php endif; ?>
 
 </section>

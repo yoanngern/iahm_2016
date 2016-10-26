@@ -47,8 +47,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="98" selection-start-line="45" selection-start-column="98" selection-end-line="45" selection-end-column="98" />
+            <state relative-caret-position="165">
+              <caret line="90" column="76" selection-start-line="90" selection-start-column="76" selection-end-line="90" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -479,7 +479,7 @@
       <workItem from="1476776785213" duration="1564000" />
       <workItem from="1477443734744" duration="185000" />
       <workItem from="1477469037887" duration="20000" />
-      <workItem from="1477472713599" duration="3612000" />
+      <workItem from="1477472713599" duration="3866000" />
     </task>
     <task id="LOCAL-00001" summary="update footer">
       <created>1474487946647</created>
@@ -593,11 +593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477476601780</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update footer">
+      <created>1477485236018</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1477485236018</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140682000" />
+    <option name="totallyTimeSpent" value="140936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -659,7 +666,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="update footer" />
     <MESSAGE value="test" />
     <MESSAGE value="update" />
     <MESSAGE value="update home" />
@@ -669,7 +675,8 @@
     <MESSAGE value="update event nav" />
     <MESSAGE value="update home slider" />
     <MESSAGE value="update head" />
-    <option name="LAST_COMMIT_MESSAGE" value="update head" />
+    <MESSAGE value="update footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="update footer" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../ems_lesignal</wordpressPath>
@@ -1031,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="98" selection-start-line="45" selection-start-column="98" selection-end-line="45" selection-end-column="98" />
+        <state relative-caret-position="165">
+          <caret line="90" column="76" selection-start-line="90" selection-start-column="76" selection-end-line="90" selection-end-column="76" />
           <folding />
         </state>
       </provider>

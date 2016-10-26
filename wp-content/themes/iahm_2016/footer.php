@@ -88,7 +88,7 @@
 				<ul class="events"><h1>Events</h1>
 					<!--<li><a href="http://www.laguerison.org/soirees-miracles-guerisons">Miracles and Healings nights</a>
 					</li>-->
-					<li><a href="http://healing-ministries.org/en/events/">upcoming events</a></li>
+					<li><a href="http://healing-ministries.org/en/events/">Upcoming events</a></li>
 					<li><a href="https://www.facebook.com/JLTministries/events/"
 					       target="_blank">Jean-Luc Trachsel’s itinerary</a></li>
 				</ul>

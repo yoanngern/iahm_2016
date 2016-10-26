@@ -7,7 +7,7 @@
  * @since Twenty Fifteen 1.0
  */
 
-wp_redirect('healing-ministries.org/');
+wp_redirect('healing-ministries.org/', $status = 302); exit;
 
 get_header(); ?>
 

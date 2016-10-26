@@ -7,6 +7,8 @@
  * @since Twenty Fifteen 1.0
  */
 
+wp_redirect( 'healing-ministries.org' );
+exit;
 get_header(); ?>
 
 	<div id="primary" class="content-area">

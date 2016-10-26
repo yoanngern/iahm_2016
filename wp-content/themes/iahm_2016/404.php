@@ -1,4 +1,8 @@
+<?php wp_redirect( home_url() ); exit; ?>
+
 <?php
+
+
 /**
  * The template for displaying 404 pages (not found)
  *
@@ -7,7 +11,7 @@
  * @since Twenty Fifteen 1.0
  */
 
-wp_redirect('healing-ministries.org/', $status = 302); exit;
+//**  wp_redirect('healing-ministries.org/', $status = 302); exit; */
 
 get_header(); ?>
 

@@ -21,10 +21,6 @@ function getEvents(nb) {
 
     url += "&filter[date_query][before]=NOW";
 
-    if (nb !== null) {
-        url += "&limit=" + nb;
-    }
-
     $.ajax({
         type: "GET",
         url: url,
@@ -63,12 +59,27 @@ function getEvents(nb) {
 
             });
 
+
+
+            if (nb !== null && nb !== 999 ) {
+                limitEvents(events, nb);
+            }
+
+
             printEvents(events);
 
 
         }
     });
 
+}
+
+
+function limitEvents(events, nb) {
+
+    events.length = nb;
+
+    return events;
 }
 
 

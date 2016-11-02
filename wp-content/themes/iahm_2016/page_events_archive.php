@@ -11,7 +11,7 @@
 		<article class="content-page">
 
 			<h1>Prochaines soirées</h1>
-			<section id="listOfEvents" data-nb="9">
+			<section id="listOfEvents" data-nb="999">
 				<div class="insert"></div>
 			</section>
 

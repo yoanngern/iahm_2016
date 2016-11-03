@@ -83,12 +83,12 @@ jQuery(document).ready(function () {
 
             option.navigation = {
                 active: true,
-                effect: "fade"
+                effect: "swipe"
             };
 
             option.pagination = {
                 active: true,
-                effect: "fade"
+                effect: "swipe"
             };
 
             if (!slider.data("nav")) {

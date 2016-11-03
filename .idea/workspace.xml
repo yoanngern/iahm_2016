@@ -27,8 +27,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            <state relative-caret-position="450">
+              <caret line="120" column="64" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -338,7 +338,7 @@
       <workItem from="1477443734744" duration="185000" />
       <workItem from="1477469037887" duration="20000" />
       <workItem from="1477472713599" duration="6330000" />
-      <workItem from="1478079774830" duration="12818000" />
+      <workItem from="1478079774830" duration="13198000" />
     </task>
     <task id="LOCAL-00001" summary="update footer">
       <created>1474487946647</created>
@@ -550,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478171627456</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="update footer nav fr">
+      <created>1478172280187</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1478172280187</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156218000" />
+    <option name="totallyTimeSpent" value="156598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -630,7 +637,8 @@
     <MESSAGE value="update page 404" />
     <MESSAGE value="update events js" />
     <MESSAGE value="update home style" />
-    <option name="LAST_COMMIT_MESSAGE" value="update home style" />
+    <MESSAGE value="update footer nav fr" />
+    <option name="LAST_COMMIT_MESSAGE" value="update footer nav fr" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../ems_lesignal</wordpressPath>
@@ -999,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        <state relative-caret-position="450">
+          <caret line="120" column="64" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
           <folding />
         </state>
       </provider>

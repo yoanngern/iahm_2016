@@ -11,11 +11,10 @@
 				<ul class="activities"><h1>Activités</h1>
 					<li><a href="/evenements/calendar/">Soirées Miracles et
 							Guérisons</a></li>
-					<li><a href="/priere/espaces-guerison/">Espaces
-							guérison</a></li>
 					<li><a href="/evenements/institut/presentation/">Institut de guérison</a></li>
-					<li><a href="/priere/telephone/"/priere/telephone/">Ligne de prière</a></li>
+					<li><a href="/priere/telephone/">Ligne de prière</a></li>
 					<li><a href="/priere/online/">Demande de prière</a></li>
+					<li><a href="/priere/espaces-guerison/">Espaces guérison</a></li>
 				</ul>
 				<ul class="events"><h1>Events</h1>
 					<li><a href="/evenements/calendar/">Soirées Miracles et Guérisons</a>
@@ -79,37 +78,32 @@
 							nights</a></li>
 					<li><a href="http://www.laguerison.org/activites/espaces-guerison/qu-est-ce-qu-un-espace-guerison">Healing
 							Rooms</a></li>
-					<li><a href="/institut">Healing Institute</a></li>
+					-->
+					<li><a href="/events/healing-institute/overview/">Healing Institute</a></li>
+					<!--
 					<li><a href="http://www.laguerison.org/activites/priere-par-telephone">Prayer Line</a></li>-->
-					<li><a href="http://healing-ministries.org/en/prayer-request">Prayer Request</a></li>
+					<li><a href="/prayer/request/">Prayer Request</a></li>
 				</ul>
 				<ul class="events"><h1>Events</h1>
 					<!--<li><a href="http://www.laguerison.org/soirees-miracles-guerisons">Miracles and Healings nights</a>
 					</li>-->
-					<li><a href="http://healing-ministries.org/en/events/">Upcoming events</a></li>
+					<li><a href="/events/">Upcoming events</a></li>
 					<li><a href="https://www.facebook.com/JLTministries/events/"
 					       target="_blank">Jean-Luc Trachsel’s itinerary</a></li>
 				</ul>
 				<ul class="resources"><h1>Resources</h1>
-					<li><a href="http://www.laguerison.org/presentation/connaitre-jesus/comment-devenir-un-chretien">To
-							Know
-							Jesus</a></li>
-					<li><a href="http://healing-ministries.org/en/resources/videos/">Our videos</a></li>
-					<li><a href="http://healing-ministries.org/en/resources/testimonies/">Testimonies</a></li>
-					<li><a href="http://healing-ministries.org/en/resources/how-to-keep-healing/">Teachings</a></li>
-					<li><a href="http://healing-ministries.org/en/resources/jesus/">How To Know Jesus</a></li>
+					<li><a href="/resources/jesus/">To Know Jesus</a></li>
+					<li><a href="/resources/videos/">Our videos</a></li>
+					<li><a href="/resources/testimonies/">Testimonies</a></li>
+					<li><a href="/resources/how-to-keep-healing/">How to keep Healing</a></li>
 				</ul>
 				<ul class="join_us"><h1>Join us</h1>
-					<li><a href="/partner">IAHM Partner</a></li>
-					<li><a href="/intercessor">Intercessor</a></li>
-					<li><a href="/volunteer">Volunteer</a></li>
+					<li><a href="/partner/">IAHM Partner</a></li>
+					<!--<li><a href="/intercessor">Intercessor</a></li>
+					<li><a href="/volunteer">Volunteer</a></li>-->
 				</ul>
 				<ul class="about"><h1>About IAHM</h1>
-					<li><a href="http://healing-ministries.org/en/iahm/vision/">Who are we?</a></li>
-					<li><a href="http://healing-ministries.org/en/iahm/vision/">Our vision</a></li>
-					<li><a href="http://healing-ministries.org/en/iahm/vision/">Our mission</a></li>
-					<li><a href="http://healing-ministries.org/en/iahm/vision/">Our purposes</a></li>
-					<li><a href="http://healing-ministries.org/en/partner/">Make a donation</a></li>
+					<li><a href="/iahm/vision/">Our vision</a></li>
 					<!--<li><a href="http://www.laguerison.org/contact">Contact us</a></li>-->
 				</ul>
 				<ul class="social"><h1>Follow IAHM</h1>
@@ -118,7 +112,7 @@
 				</ul>
 			</nav>
 			<div class="info">
-				<div class="logo"><a id="logo_iahm" target="_blank" href="http://www.healing-ministries.org"></a></div>
+				<div class="logo"><a id="logo_iahm" target="_blank" href="http://healing-ministries.org/en/"></a></div>
 				<div class="address"><h1>IAHM</h1>
 					<p>Route du Flon 28<br/>
 						1610 Oron-La-Ville<br/>

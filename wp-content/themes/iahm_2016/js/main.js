@@ -105,7 +105,7 @@ jQuery(document).ready(function () {
 
             option.effect = {
                 fade: {
-                    speed: 200
+                    speed: 500
                 }
             };
 

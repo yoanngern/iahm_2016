@@ -430,7 +430,9 @@ body.page-template-page_home {
 
             h1 {
                 bottom: 6vh;
+                font-size: 1.8em;
             }
+
         }
 
         section#pub {
@@ -496,6 +498,8 @@ body.page-template-page_home {
 
                         div.image {
                             margin-top: 0;
+                            width: 60%;
+                            margin-left: 20%;
                         }
                     }
                 }

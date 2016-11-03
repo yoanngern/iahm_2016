@@ -110,7 +110,7 @@ jQuery(document).ready(function () {
             };
 
             option.play = {
-                effect: "fade",
+                effect: "swipe",
                 interval: 4000,
                 auto: true,
                 swap: true,

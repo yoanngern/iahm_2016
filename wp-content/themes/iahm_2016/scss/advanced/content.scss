@@ -3,6 +3,21 @@ article.content-page {
     max-width: 980px;
     margin: 0 auto;
 
+    a.button {
+        border: 2px solid $black;
+        color: $black;
+        padding: 6px 13px 3px;
+        font-family: $futura-bold;
+        text-transform: uppercase;
+        display: inline-block;
+
+        &:hover {
+            background-color: $black;
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
     h1, h2, h3, h4, h4, h6, p, ul, ol {
         max-width: 790px;
     }

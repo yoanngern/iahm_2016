@@ -1,7 +1,7 @@
 // @codekit-prepend "vendor/jquery-2.2.2.js"
 // @codekit-prepend "vendor/jquery.slides.min.js"
 
-jQuery(document).ready(function () {
+$(document).ready(function () {
 
 
     $("body > header").on("click", "#burger", function (event) {

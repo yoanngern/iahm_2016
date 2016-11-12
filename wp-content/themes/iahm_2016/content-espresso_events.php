@@ -31,7 +31,10 @@ $event_class = apply_filters( 'FHEE__content_espresso_events__event_class', $eve
 			<?php foreach ( $persons as $person ) : ?>
 
 
+
+
 				<?php if ( $person instanceof EE_Person ) :
+
 					$feature_image = get_the_post_thumbnail( $person->ID() ); ?>
 
 					<section class="speaker">

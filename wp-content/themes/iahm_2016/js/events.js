@@ -1,7 +1,7 @@
 window.events = [];
 
 
-jQuery(document).ready(function () {
+$(document).ready(function () {
 
     HandlebarsIntl.registerWith(Handlebars);
 
@@ -28,7 +28,7 @@ function getEvents(nb) {
         jsonpCallback: 'callback',
         contentType: "application/json",
         dataType: 'json',
-        'timeout': 2000,
+        'timeout': 4000,
         error: function () {
             console.log("error");
         },

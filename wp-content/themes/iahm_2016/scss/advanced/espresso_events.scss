@@ -23,9 +23,11 @@ article.content-page.espresso {
     }
 
     time {
-        font-family: $futura-demi;
+        //font-family: $futura-demi;
+        font-family: $futura-demi-i;
         font-size: 1.3em;
-        margin-bottom: 30px;
+        margin-top: 5px;
+        margin-bottom: 35px;
         display: block;
     }
 
@@ -42,8 +44,8 @@ article.content-page.espresso {
     }
 
     section.speaker {
-        margin-top: 0px;
-        padding-bottom: 20px;
+        margin-top: 30px;
+        padding-bottom: 60px;
 
         div.picture {
             display: inline-block;
@@ -78,4 +80,6 @@ article.content-page.espresso {
 .espresso_events,
 .espresso_venues {
     margin-bottom: inherit;
+
+
 }

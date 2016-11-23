@@ -17,7 +17,6 @@ if (
 
 	<h4>Adresse</h4>
 	<div class="address">
-		<div><?php echo espresso_venue_name( $post->ID, false ); ?></div>
 		<?php espresso_venue_address( 'multiline' ); ?>
 	</div>
 

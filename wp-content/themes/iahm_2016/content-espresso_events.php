@@ -38,16 +38,14 @@ $event_class = apply_filters( 'FHEE__content_espresso_events__event_class', $eve
 					$feature_image = get_the_post_thumbnail( $person->ID() ); ?>
 
 					<section class="speaker">
-						<h2>Orateur: <?php echo $person->full_name(); ?><?php
-							if($person->country_ID() != null) {
-								echo " (" . $person->country_ID() . ")";
-							}
-							?></h2>
+
 						<div class="picture">
 							<?php if ( ! empty( $feature_image ) ) :
 								echo $feature_image;
 							endif; ?>
 						</div>
+
+
 
 
 						<?php
@@ -80,6 +78,11 @@ $event_class = apply_filters( 'FHEE__content_espresso_events__event_class', $eve
 
 								if ( $bio['language'] == $best_lang ) : ?>
 									<div class="bio">
+										<h2><?php echo $person->full_name(); ?><?php
+											if($person->country_ID() != null) {
+												echo " (" . $person->country_ID() . ")";
+											}
+											?></h2>
 										<p><?php echo $bio['text'] ?></p>
 										<p>
 											<a target="_blank"

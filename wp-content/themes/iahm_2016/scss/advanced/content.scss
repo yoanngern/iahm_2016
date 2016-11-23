@@ -10,6 +10,7 @@ article.content-page {
         font-family: $futura-bold;
         text-transform: uppercase;
         display: inline-block;
+        transition: all 100ms ease;
 
         &:hover {
             background-color: $black;

@@ -171,8 +171,6 @@
 
 				<h2>{{title}}</h2>
 				<h3>{{formatDate date_start day="numeric" month="long" year="numeric"}}</h3>
-
-				<a href="{{link}}">Plus d'infos</a>
 			</a>
 		</div>
 		{{/each}}

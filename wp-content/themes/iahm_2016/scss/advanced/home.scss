@@ -7,7 +7,7 @@ body.page-template-page_home {
         h1 {
             width: 100%;
             color: $white;
-            font-size: 2.2em;
+            font-size: 2em;
             bottom: 10%;
             position: absolute;
             text-align: center;
@@ -20,8 +20,8 @@ body.page-template-page_home {
             background-repeat: no-repeat;
             display: block;
             position: absolute;
-            top: 18%;
-            bottom: 32%;
+            top: 32%;
+            bottom: 33%;
             left: 15%;
             right: 15%;
         }
@@ -111,9 +111,14 @@ body.page-template-page_home {
 
     @media only screen and (min-width: 1080px) {
         section#header_home {
+
+            h1 {
+                font-size: 2.2em;
+            }
+
             a.image {
-                top: 25%;
-                bottom: 30%;
+                top: 30%;
+                bottom: 35%;
                 left: 15%;
                 right: 15%;
             }
@@ -123,8 +128,8 @@ body.page-template-page_home {
     @media only screen and (min-width: 2000px) {
         section#header_home {
             a.image {
-                top: 30%;
-                bottom: 35%;
+                top: 32%;
+                bottom: 37%;
                 left: 15%;
                 right: 15%;
             }

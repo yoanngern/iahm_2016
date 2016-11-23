@@ -112,14 +112,12 @@ if ( has_nav_menu( 'principal' ) ) : ?>
 
 		{{#each events}}
 		<div class="event">
-			<div>
-				<a id="{{ id }}" class="image" href="{{link}}" style="background-image: url('{{image}}')"></a>
+			<a href="{{link}}">
+				<div id="{{ id }}" class="image" style="background-image: url('{{image}}')"></div>
 
 				<h2>{{title}}</h2>
 				<h3>{{formatDate date_start day="numeric" month="long" year="numeric"}}</h3>
-
-				<a href="{{link}}" class="button">Plus d'infos</a>
-			</div>
+			</a>
 		</div>
 		{{/each}}
 	</script>

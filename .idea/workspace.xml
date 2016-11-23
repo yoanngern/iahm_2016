@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="868eef80-fb9c-463f-9dee-99441240d946" name="Default" comment="add form template">
+    <list default="true" id="868eef80-fb9c-463f-9dee-99441240d946" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events_archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events_archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/home.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php" />
     </list>
     <ignored path="iahm_conference.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,51 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/home.scss">
+      <file leaf-file-name="page_live.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_functions.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_functions.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page_events_archive.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events_archive.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page_events.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+            <state relative-caret-position="333">
+              <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -133,7 +89,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/live.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/js/live.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_form.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/header-form.php" />
@@ -142,6 +97,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events_archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php" />
       </list>
     </option>
   </component>
@@ -477,7 +433,7 @@
       <workItem from="1478940575871" duration="1593000" />
       <workItem from="1479200737234" duration="732000" />
       <workItem from="1479896187148" duration="13000" />
-      <workItem from="1479911447844" duration="7091000" />
+      <workItem from="1479911447844" duration="7681000" />
     </task>
     <task id="LOCAL-00001" summary="update footer">
       <created>1474487946647</created>
@@ -752,11 +708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479201303661</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update design for event's page">
+      <created>1479923594762</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1479923594762</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191475000" />
+    <option name="totallyTimeSpent" value="192065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -766,6 +729,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -774,7 +738,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -837,7 +800,8 @@
     <MESSAGE value="update slider home" />
     <MESSAGE value="update live page" />
     <MESSAGE value="add form template" />
-    <option name="LAST_COMMIT_MESSAGE" value="add form template" />
+    <MESSAGE value="update design for event's page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update design for event's page" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../ems_lesignal</wordpressPath>
@@ -1050,13 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="175" column="18" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/js/live.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1177,6 +1134,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="297" column="37" selection-start-line="297" selection-start-column="37" selection-end-line="297" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/home.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1209,10 +1174,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+        <state relative-caret-position="333">
+          <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
           <folding />
         </state>
       </provider>

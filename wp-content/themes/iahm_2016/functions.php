@@ -15,6 +15,7 @@ add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_script' );
 function register_my_menu() {
 	register_nav_menu( 'principal', __( 'Menu principal', 'iahm_conference' ) );
 	register_nav_menu( 'events', __( 'Menu events', 'iahm_conference' ) );
+	register_nav_menu( 'language-menu', __( 'Menu language', 'iahm_conference' ) );
 	register_nav_menu( 'footer-menu', __( 'Menu footer', 'iahm_conference' ) );
 }
 

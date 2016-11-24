@@ -27,6 +27,7 @@ add_theme_support( 'post-thumbnails' );
 
 add_image_size( 'banner', 2100, 889, true );
 add_image_size( 'home', 2704, 2006, true );
+add_image_size( 'card', 600, 338, true );
 
 
 function get_attachment_url_by_slug( $slug ) {

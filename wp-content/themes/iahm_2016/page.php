@@ -84,7 +84,7 @@
 							<div class="card">
 								<a href="<?php the_sub_field( 'url' ); ?>">
 									<div class="image"
-									     style="background-image: url('<?php the_sub_field( 'image' ); ?>')"></div>
+									     style="background-image: url('<?php echo get_sub_field('image')['sizes']['card']; ?>')"></div>
 
 									<h2><?php the_sub_field( 'title' ); ?></h2>
 									<h3><?php the_sub_field( 'text' ); ?></h3>

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="868eef80-fb9c-463f-9dee-99441240d946" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" />
     </list>
     <ignored path="iahm_conference.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -653,7 +653,7 @@
       <workItem from="1479896187148" duration="13000" />
       <workItem from="1479911447844" duration="7729000" />
       <workItem from="1479933449591" duration="2349000" />
-      <workItem from="1479981425273" duration="8357000" />
+      <workItem from="1479981425273" duration="8443000" />
     </task>
     <task id="LOCAL-00001" summary="update footer">
       <created>1474487946647</created>
@@ -970,11 +970,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480003041016</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="update img align">
+      <created>1480003387262</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1480003387262</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202819000" />
+    <option name="totallyTimeSpent" value="202905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1060,7 +1067,8 @@
     <MESSAGE value="add signature for articles&#10;add cards for pages" />
     <MESSAGE value="update title of speaker" />
     <MESSAGE value="update event page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update event page" />
+    <MESSAGE value="update img align" />
+    <option name="LAST_COMMIT_MESSAGE" value="update img align" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../ems_lesignal</wordpressPath>

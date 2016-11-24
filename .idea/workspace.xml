@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="868eef80-fb9c-463f-9dee-99441240d946" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
     </list>
     <ignored path="iahm_conference.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,15 +24,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content-espresso_events.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content-espresso_events.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+            <state relative-caret-position="288">
+              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
               <folding>
                 <marker date="1480002975000" expanded="true" signature="1486:1644" ph="..." />
                 <marker date="1480002975000" expanded="true" signature="1514:1617" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_custom.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +156,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_cards.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_functions.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss" />
@@ -144,6 +163,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/header-event.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
       </list>
     </option>
   </component>
@@ -633,7 +653,7 @@
       <workItem from="1479896187148" duration="13000" />
       <workItem from="1479911447844" duration="7729000" />
       <workItem from="1479933449591" duration="2349000" />
-      <workItem from="1479981425273" duration="7991000" />
+      <workItem from="1479981425273" duration="8357000" />
     </task>
     <task id="LOCAL-00001" summary="update footer">
       <created>1474487946647</created>
@@ -943,11 +963,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479995307164</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update event page">
+      <created>1480003041016</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1480003041016</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202453000" />
+    <option name="totallyTimeSpent" value="202819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1032,7 +1059,8 @@
     <MESSAGE value="bug fixed" />
     <MESSAGE value="add signature for articles&#10;add cards for pages" />
     <MESSAGE value="update title of speaker" />
-    <option name="LAST_COMMIT_MESSAGE" value="update title of speaker" />
+    <MESSAGE value="update event page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update event page" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../ems_lesignal</wordpressPath>
@@ -1352,22 +1380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1429,12 +1441,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="95" column="50" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+        <state relative-caret-position="288">
+          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
           <folding>
             <marker date="1480002975000" expanded="true" signature="1486:1644" ph="..." />
             <marker date="1480002975000" expanded="true" signature="1514:1617" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

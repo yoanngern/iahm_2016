@@ -38,12 +38,39 @@
 							<div class="text">
 								<h2><?php echo $person->full_name(); ?></h2>
 								<?php
-								$title = get_field( 'title', $person->ID() );
-								?>
-								<p><?php echo $title; ?></p>
+
+								$lang = 'en';
+								$bios = get_field( 'bio', $person->ID() );
+
+								$best_lang = $bios[0]['language'];
+
+								if ( $best_lang != null ):
+
+									foreach ( $bios as $bio ) {
+
+										$lang = $bio['language'];
+
+										if ( $lang == substr( get_bloginfo( 'language' ), 0, 2 ) ) {
+											$best_lang = $lang;
+											break;
+										}
+
+										if ( $lang == 'en' ) {
+											$best_lang = 'en';
+										}
+									}
+
+									foreach ( $bios as $bio ) {
+
+										if ( $bio['language'] == $best_lang ) : ?>
+											<p><?php echo $bio['title'] ?></p>
+
+										<?php endif; ?>
+									<?php }
+								endif; ?>
+
+
 							</div>
-
-
 
 
 						<?php endif; ?>

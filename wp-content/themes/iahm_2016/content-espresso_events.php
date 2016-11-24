@@ -45,16 +45,10 @@ $event_class = apply_filters( 'FHEE__content_espresso_events__event_class', $eve
 							endif; ?>
 						</div>
 
-
-
-
 						<?php
 
 						$lang = 'en';
 						$bios = get_field( 'bio', $person->ID() );
-
-						//var_dump($bios);
-
 
 						$best_lang = $bios[0]['language'];
 

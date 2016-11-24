@@ -1,0 +1,41 @@
+footer#new {
+    width: 100%;
+    background-color: $gray_light;
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    height: auto;
+    position: relative;
+    color: $black;
+    font-family: $futura;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+
+    .content {
+        padding-top: 20px;
+        max-width: 1320px;
+        margin: 0 auto 0;
+        display: block;
+
+        ul {
+            display: inline-block;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: $gray;
+                    text-decoration: none;
+                    font-size: 0.8em;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            p {
+                padding-top: 10px;
+            }
+        }
+    }
+}

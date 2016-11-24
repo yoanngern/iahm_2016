@@ -1,52 +1,23 @@
 </main>
 
 <footer>
-	<?php
-
-	if ( get_locale() == "fr_FR" ) { ?>
 
 
-		<div class="content">
-			<nav class="sitemap">
-				<ul class="activities"><h1>Activités</h1>
-					<li><a href="/evenements/calendar/">Soirées Miracles et
-							Guérisons</a></li>
-					<li><a href="/evenements/institut/presentation/">Institut de guérison</a></li>
-					<li><a href="/priere/telephone/">Ligne de prière</a></li>
-					<li><a href="/priere/online/">Demande de prière</a></li>
-					<li><a href="/priere/espaces-guerison/">Espaces guérison</a></li>
-				</ul>
-				<ul class="events"><h1>Events</h1>
-					<li><a href="/evenements/calendar/">Soirées Miracles et Guérisons</a>
-					</li>
-					<li><a href="/evenements/netherlands/presentation/">Conférences
-							AIMG</a></li>
-					<li><a href="https://www.facebook.com/JLTministries/events/"
-					       target="_blank">Itinéraire de Jean-Luc Trachsel</a></li>
-				</ul>
-				<ul class="resources"><h1>Ressources</h1>
-					<li><a href="/ressources/jesus/">Connaître
-							Jésus</a></li>
-					<li><a href="/ressources/videos/">Nos vidéos</a></li>
-					<li><a href="/ressources/temoignages/">Témoignages</a></li>
-					<li><a href="/ressources/garder-sa-guerison/">Garder sa guérison</a></li>
-				</ul>
-				<ul class="join_us"><h1>Rejoignez-nous</h1>
-					<li><a href="/partenaire/">Partenaire AIMG</a></li>
-					<li><a href="/aimg/intercesseur/">Intercesseur</a></li>
-					<li><a href="/aimg/benevole/">Bénévole</a></li>
-				</ul>
-				<ul class="about"><h1>A propos de l’AIMG</h1>
-					<li><a href="/aimg/vision/">Notre vision</a></li>
-					<li><a href="/aimg/confession-de-foi/">Confession de foi</a></li>
-					<li><a href="/don/">Faire un don</a></li>
-					<!--<li><a href="http://www.laguerison.org/contact">Contactez-nous</a></li>-->
-				</ul>
-				<ul class="social"><h1>Suivre l’AIMG</h1>
-					<li><a href="https://www.facebook.com/iahm.international/">Facebook</a></li>
-					<li><a href="https://twitter.com/aimg_iahm">Twitter</a></li>
-				</ul>
-			</nav>
+	<div class="content">
+
+
+		<nav class="sitemap">
+
+			<?php
+			wp_nav_menu( array(
+				'theme_location' => 'footer-menu'
+			) );
+			?>
+
+		</nav>
+		<?php
+
+		if ( get_locale() == "fr_FR" ) { ?>
 			<div class="info">
 				<div class="logo"><a id="logo_aimg" target="_blank" href="http://healing-ministries.org/fr/"></a></div>
 				<div class="address"><h1>AIMG</h1>
@@ -60,57 +31,13 @@
 				<ul class="languages"><h1>Changer de langue</h1>
 					<?php
 					wp_nav_menu( array(
-						'theme_location' => 'footer-menu'
+						'theme_location' => 'language-menu'
 					) );
 					?>
 				</ul>
 			</div>
-		</div>
+		<?php } else { ?>
 
-
-	<?php } else { ?>
-
-		<div class="content">
-			<nav class="sitemap">
-				<ul class="activities"><h1>Activities</h1>
-					<!--
-					<li><a href="http://www.laguerison.org/activites/soiree-miracles-et-guerisons">Miracles and Healings
-							nights</a></li>
-					<li><a href="http://www.laguerison.org/activites/espaces-guerison/qu-est-ce-qu-un-espace-guerison">Healing
-							Rooms</a></li>
-					-->
-					<li><a href="/events/healing-institute/overview/">Healing Institute</a></li>
-					<!--
-					<li><a href="http://www.laguerison.org/activites/priere-par-telephone">Prayer Line</a></li>-->
-					<li><a href="/prayer/request/">Prayer Request</a></li>
-				</ul>
-				<ul class="events"><h1>Events</h1>
-					<!--<li><a href="http://www.laguerison.org/soirees-miracles-guerisons">Miracles and Healings nights</a>
-					</li>-->
-					<li><a href="/events/">Upcoming events</a></li>
-					<li><a href="https://www.facebook.com/JLTministries/events/"
-					       target="_blank">Jean-Luc Trachsel’s itinerary</a></li>
-				</ul>
-				<ul class="resources"><h1>Resources</h1>
-					<li><a href="/resources/jesus/">To Know Jesus</a></li>
-					<li><a href="/resources/videos/">Our videos</a></li>
-					<li><a href="/resources/testimonies/">Testimonies</a></li>
-					<li><a href="/resources/how-to-keep-healing/">How to keep Healing</a></li>
-				</ul>
-				<ul class="join_us"><h1>Join us</h1>
-					<li><a href="/partner/">IAHM Partner</a></li>
-					<!--<li><a href="/intercessor">Intercessor</a></li>
-					<li><a href="/volunteer">Volunteer</a></li>-->
-				</ul>
-				<ul class="about"><h1>About IAHM</h1>
-					<li><a href="/iahm/vision/">Our vision</a></li>
-					<!--<li><a href="http://www.laguerison.org/contact">Contact us</a></li>-->
-				</ul>
-				<ul class="social"><h1>Follow IAHM</h1>
-					<li><a href="https://www.facebook.com/iahm.international/">Facebook</a></li>
-					<li><a href="https://twitter.com/aimg_iahm">Twitter</a></li>
-				</ul>
-			</nav>
 			<div class="info">
 				<div class="logo"><a id="logo_iahm" target="_blank" href="http://healing-ministries.org/en/"></a></div>
 				<div class="address"><h1>IAHM</h1>
@@ -124,18 +51,16 @@
 				<ul class="languages"><h1>Change language</h1>
 					<?php
 					wp_nav_menu( array(
-						'theme_location' => 'footer-menu'
+						'theme_location' => 'language-menu'
 					) );
 					?>
 				</ul>
 
 			</div>
-		</div>
 
+		<?php } ?>
 
-	<?php }
-
-	?>
+	</div>
 
 
 </footer>

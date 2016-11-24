@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868eef80-fb9c-463f-9dee-99441240d946" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events-venues.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events-venues.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/header.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_functions.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_functions.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" />
     </list>
@@ -31,12 +31,84 @@
     <favorites_list name="iahm_conference" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/style.scss">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="page_events_archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events_archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="197" column="5" selection-start-line="197" selection-start-column="5" selection-end-line="197" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="34" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_custom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_custom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#article#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_live.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_custom.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="espresso_events.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -55,10 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_conference/scss/advanced/espresso_events.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_conference/content-espresso_events.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_conference/page_custom.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_conference/page_events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_conference/single-espresso_events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_conference/archive-espresso_events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_conference/loop-espresso_events.php" />
@@ -78,7 +146,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/header-event.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/archive-espresso_events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/single-espresso_events.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/subnav.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/footer.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_home.php" />
@@ -100,12 +167,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events-venues.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_cards.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_functions.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss" />
       </list>
     </option>
   </component>
@@ -150,6 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,8 +384,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,18 +400,18 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/iahm_2016" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/iahm_2016/js" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/iahm_conference" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/iahm_conference-child" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wp-content/themes/iahm_conference" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/upcoming-events/css" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/upcoming-events" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/upcoming-events/img" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/upcoming-events/js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wp-content/themes/iahm_2016" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/iahm_2016/js" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/iahm_conference" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/iahm_conference-child" />
     </key>
   </component>
   <component name="RunManager">
@@ -442,7 +514,8 @@
       <workItem from="1479200737234" duration="732000" />
       <workItem from="1479896187148" duration="13000" />
       <workItem from="1479911447844" duration="7729000" />
-      <workItem from="1479933449591" duration="2230000" />
+      <workItem from="1479933449591" duration="2349000" />
+      <workItem from="1479981425273" duration="4121000" />
     </task>
     <task id="LOCAL-00001" summary="update footer">
       <created>1474487946647</created>
@@ -731,17 +804,24 @@
       <option name="project" value="LOCAL" />
       <updated>1479924230116</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="bug fixed">
+      <created>1479936464792</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1479936464792</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194343000" />
+    <option name="totallyTimeSpent" value="198583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27786753" sideWeight="0.47945204" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2819063" sideWeight="0.47945204" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -753,7 +833,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -817,7 +897,8 @@
     <MESSAGE value="update live page" />
     <MESSAGE value="add form template" />
     <MESSAGE value="update design for event's page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update design for event's page" />
+    <MESSAGE value="bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixed" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../ems_lesignal</wordpressPath>
@@ -827,27 +908,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/event-espresso-core-reg/public/template_tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="367" column="43" selection-start-line="367" selection-start-column="43" selection-end-line="367" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/event-espresso-core-reg/core/helpers/EEH_Event_View.helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="218" column="8" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/espresso-events-table-template.template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events-details.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -960,13 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/single-espresso_events.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -985,13 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="19" selection-start-line="6" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1035,14 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1095,22 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_functions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events_archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
@@ -1127,34 +1149,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="159" column="42" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="157" column="22" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/live.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1191,24 +1189,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_cards.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="149" column="5" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+        <state relative-caret-position="405">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="197" column="5" selection-start-line="197" selection-start-column="5" selection-end-line="197" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events_archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="34" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#article#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAsIW98jPbTLP4CdseeeZZj4/8J9z65sYdSJEwJ8fI0pYzLv0xX/+U+17Ak3UZCswZ3DNu4S/v3+Qan827bFIFmLmeJjIm/ltui2W1MWhAII6E7CgrRjQb2qhLpl75OUd4Bf4txLr0Kt/ILArEmCyZMt1OQLdK9eCv6Sz9U/dLcVLsAGM93yQKOG4SmlxJozwZa9eiNVPm+/b+fvjyh1eScFLMbFU3QnX78mTi2loXYxt06KQ1dFdnc0MvXYyNYQ7PUQ==</data>
+    <data>AAAAsFaP2ibLP7lXO6Z9G0c9lLPKJDMMmFGV0A1SbbeAxZxKD835cj8UChiPwuJ5SdnW0eXMFdKUaqePNyOKu2w6lxCC36obU6ASX7uHCWaElNUr8SXFMLSp13tYAPjsPShgZrihSnFruZZL4ES/813qGBsypkx+/epcE1uqxTmi8mxbCBM1R9XPYCDyja3JgqybbUKQ8bcaYuxJfPA+OvHqI+F+ChwcuRjudAyRF8IQaFKPwLwu61enYE2cxThORLc/ig==</data>
   </component>
 </project>

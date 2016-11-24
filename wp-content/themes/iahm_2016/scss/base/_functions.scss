@@ -107,3 +107,9 @@
     border-color: $color transparent transparent transparent;
 }
 
+@mixin desaturate() {
+    filter: url('js/grayscale/filters.svg#grayscale'); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Google Chrome Canary */
+}
+

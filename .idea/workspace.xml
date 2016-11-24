@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="868eef80-fb9c-463f-9dee-99441240d946" name="Default" comment="update img align">
+    <list default="true" id="868eef80-fb9c-463f-9dee-99441240d946" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/style.css" />
     </list>
     <ignored path="iahm_conference.iws" />
@@ -25,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss">
+      <file leaf-file-name="content_custom.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_tools.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -92,13 +102,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/events.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_functions.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/espresso_events.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/header-event.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss" />
       </list>
     </option>
   </component>
@@ -588,14 +598,7 @@
       <workItem from="1479896187148" duration="13000" />
       <workItem from="1479911447844" duration="7729000" />
       <workItem from="1479933449591" duration="2349000" />
-      <workItem from="1479981425273" duration="9275000" />
-    </task>
-    <task id="LOCAL-00004" summary="update footer">
-      <created>1474489438771</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1474489438771</updated>
+      <workItem from="1479981425273" duration="10199000" />
     </task>
     <task id="LOCAL-00005" summary="test">
       <created>1475072535755</created>
@@ -933,11 +936,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480003978047</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update img align">
+      <created>1480004301954</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1480004301955</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203737000" />
+    <option name="totallyTimeSpent" value="204661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1286,14 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1368,14 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/content-espresso_events.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1424,8 +1418,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+        <state relative-caret-position="289">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/advanced/content_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/scss/base/_tools.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding />
         </state>
       </provider>

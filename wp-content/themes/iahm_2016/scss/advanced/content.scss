@@ -11,6 +11,7 @@ article.content-page {
         text-transform: uppercase;
         display: inline-block;
         transition: all 100ms ease;
+        cursor: pointer;
 
         &:hover {
             background-color: $black;

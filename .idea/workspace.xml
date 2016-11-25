@@ -129,8 +129,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/thumb-mg-st-etienne-150x150.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/09/thumb-mg-st-etienne-150x150.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/thumb-mg-st-etienne-300x169.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2016/09/thumb-mg-st-etienne-300x169.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/iahm_2016/js/main.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/iahm_2016/js/main.min.js" />
     </list>
     <ignored path="iahm_conference.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -151,21 +151,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php">
+      <file leaf-file-name="page_custom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_custom.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+            <state relative-caret-position="285">
+              <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_events.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -232,9 +264,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events_archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page_live.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/iahm_2016/js/main.js" />
       </list>
     </option>
   </component>
@@ -515,14 +547,7 @@
       <workItem from="1479933449591" duration="2349000" />
       <workItem from="1479981425273" duration="12430000" />
       <workItem from="1480016263956" duration="5431000" />
-      <workItem from="1480064244065" duration="735000" />
-    </task>
-    <task id="LOCAL-00011" summary="update event nav">
-      <created>1475592897488</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1475592897488</updated>
+      <workItem from="1480064244065" duration="1569000" />
     </task>
     <task id="LOCAL-00012" summary="update home slider">
       <created>1475594707480</created>
@@ -860,11 +885,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480070531377</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="update signature images">
+      <created>1480070722847</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1480070722847</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213058000" />
+    <option name="totallyTimeSpent" value="213892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -926,7 +958,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix bug with default banner" />
     <MESSAGE value="update event nav" />
     <MESSAGE value="update home slider" />
     <MESSAGE value="update head" />
@@ -951,7 +982,8 @@
     <MESSAGE value="update footer" />
     <MESSAGE value="update handlebars" />
     <MESSAGE value="update js" />
-    <option name="LAST_COMMIT_MESSAGE" value="update js" />
+    <MESSAGE value="update signature images" />
+    <option name="LAST_COMMIT_MESSAGE" value="update signature images" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>$PROJECT_DIR$/../ems_lesignal</wordpressPath>
@@ -1204,14 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1266,14 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="113" selection-start-line="9" selection-start-column="113" selection-end-line="9" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/header-form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1316,25 +1332,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+        <state relative-caret-position="750">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/page_events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/iahm_2016/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,1 +1,0 @@
-You are not permitted to read from this folder

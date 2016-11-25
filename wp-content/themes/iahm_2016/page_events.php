@@ -4,6 +4,10 @@
 
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/events.min.js"></script>
 
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.fr"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/handlebars-v4.0.5.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/handlebars-intl/handlebars-intl.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/handlebars-intl/locale-data/fr.js"></script>
 
 
 <?php

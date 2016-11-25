@@ -1,4 +1,3 @@
-// @codekit-prepend "vendor/jquery-2.2.2.js"
 // @codekit-prepend "vendor/jquery.slides.min.js"
 
 $(document).ready(function () {

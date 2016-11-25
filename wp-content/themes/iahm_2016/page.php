@@ -27,7 +27,7 @@
 						$person = EEH_People_View::get_person( $author );
 
 						if ( $person instanceof EE_Person ) :
-							$feature_image = get_the_post_thumbnail( $person->ID() ); ?>
+							$feature_image = get_the_post_thumbnail( $person->ID() , 'signature'); ?>
 
 							<div class="picture">
 								<?php if ( ! empty( $feature_image ) ) :

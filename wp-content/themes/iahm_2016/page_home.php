@@ -7,10 +7,25 @@
 	<?php if ( get_field( 'slider' ) ):
 
 		$slider = get_field( 'slider' );
+
+		$nb_slides = 0;
+
 		?>
 
+		<?php foreach ( $slider as $slide ):
+
+		if ( $slide['show'] ):
+
+			$nb_slides++;
+
+			?>
+
+
+		<?php endif; ?>
+	<?php endforeach; ?>
+
 		<section id="header_home">
-			<div id="slides" class="slidesjs" data-size="<?php echo count( $slider ); ?>" data-nav="true"
+			<div id="slides" class="slidesjs" data-size="<?php echo $nb_slides; ?>" data-nav="true"
 			     data-pag="true" data-height="828">
 				<?php foreach ( $slider as $slide ):
 

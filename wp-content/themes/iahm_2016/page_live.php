@@ -18,8 +18,20 @@
 
 		<div class="content">
 
+			<?php
 
-			<article id="fbinsert" class="video" data-video="<?php echo get_field( 'video_id' ); ?>"></article>
+			if ( get_field( 'facebook_video' ) ):
+
+				?>
+				<article id="fbinsert" class="video" data-video="<?php echo get_field( 'video_id' ); ?>"></article>
+			<?php else: ?>
+
+				<article class="video">
+					<iframe width="100%" height="auto"
+					        src="https://www.youtube.com/embed/<?php echo get_field( 'youtube_id' ); ?>?rel=0&amp;showinfo=0"
+					        frameborder="0" allowfullscreen></iframe>
+				</article>
+			<?php endif; ?>
 
 
 		</div>
@@ -144,7 +156,8 @@
 
 			<?php endwhile; ?>
 
-			<a href="<?php echo get_field( 'button_link' ); ?>" class="button"><span><?php echo get_field( 'button_label' ); ?></span></a>
+			<a href="<?php echo get_field( 'button_link' ); ?>"
+			   class="button"><span><?php echo get_field( 'button_label' ); ?></span></a>
 
 		</article>
 	</section>

@@ -26,10 +26,10 @@ add_action( 'init', 'register_my_menu' );
 
 add_theme_support( 'post-thumbnails' );
 
-add_image_size( 'banner', 2100, 889, true );
+add_image_size( 'banner', 1050, 445, true );
 add_image_size( 'home', 1352, 1003, true );
-add_image_size( 'card', 600, 338, true );
-add_image_size( 'signature', 160, 160, true );
+add_image_size( 'card', 300, 169, true );
+add_image_size( 'signature', 80, 80, true );
 
 
 function get_attachment_url_by_slug( $slug ) {

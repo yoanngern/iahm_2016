@@ -3295,8 +3295,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/vendor\/handlebars-v4.0.5.min.js",
-		"oF": 1,
-		"sC": 0,
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/vendor\/handlebars-v4.0.5.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/vendor\/handlebars-v4.0.5.min.min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/vendor\/jquery-2.2.2.js": {

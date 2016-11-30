@@ -14,14 +14,18 @@
 			     data-pag="true" data-height="828">
 				<?php foreach ( $slider as $slide ):
 
-					?>
+					if ( $slide['show'] ):
 
-					<div style="background-image: url('<?php echo $slide['bg']['sizes']['home']; ?>')">
+						?>
 
-						<a class="image" href="<?php echo $slide['link']; ?>" style="background-image: url('<?php echo $slide['image']; ?>')"></a>
-						<h1><?php echo $slide['title']; ?></h1>
+						<div style="background-image: url('<?php echo $slide['bg']['sizes']['home']; ?>')">
 
-					</div>
+							<a class="image" href="<?php echo $slide['link']; ?>"
+							   style="background-image: url('<?php echo $slide['image']; ?>')"></a>
+							<h1><?php echo $slide['title']; ?></h1>
+
+						</div>
+					<?php endif; ?>
 				<?php endforeach; ?>
 			</div>
 		</section>
@@ -40,7 +44,8 @@
 						<a href="<?php the_sub_field( 'page' ); ?>"
 						   style="background-image: url('<?php the_sub_field( 'bg' ); ?>')">
 
-							<div class="image" style="background-image: url('<?php the_sub_field( 'image' ); ?>')"></div>
+							<div class="image"
+							     style="background-image: url('<?php the_sub_field( 'image' ); ?>')"></div>
 						</a>
 					</li>
 

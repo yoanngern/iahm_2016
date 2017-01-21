@@ -28,7 +28,7 @@
 
 				<article class="video">
 					<iframe width="100%" height="auto"
-					        src="https://www.youtube.com/embed/<?php echo get_field( 'youtube_id' ); ?>?rel=0&amp;showinfo=0"
+					        src="https://www.youtube.com/embed/<?php echo get_field( 'youtube_id' ); ?>?rel=0&amp;showinfo=0&autoplay=1"
 					        frameborder="0" allowfullscreen></iframe>
 				</article>
 			<?php endif; ?>

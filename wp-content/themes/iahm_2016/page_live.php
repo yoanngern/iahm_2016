@@ -168,7 +168,7 @@
 
 			<h1><?php echo get_field( 'follow_us' ); ?></h1>
 
-			<div class="fb-follow" data-href="https://www.facebook.com/iahm.international/" data-layout="button"
+			<div class="fb-follow" data-href="https://www.facebook.com/HealingMinistries/" data-layout="button"
 			     data-size="large" data-show-faces="true"></div>
 		</article>
 	</section>
